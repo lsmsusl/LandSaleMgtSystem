@@ -22,57 +22,66 @@ namespace LSM {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txt_land_no control.
+        /// btn_create_land control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_no;
+        protected global::System.Web.UI.WebControls.Button btn_create_land;
         
         /// <summary>
-        /// txt_land_name control.
+        /// btn_block_division control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_name;
+        protected global::System.Web.UI.WebControls.Button btn_block_division;
         
         /// <summary>
-        /// txt_land_address control.
+        /// btn_visit_field_officer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_address;
+        protected global::System.Web.UI.WebControls.Button btn_visit_field_officer;
         
         /// <summary>
-        /// txt_blocks control.
+        /// btn_allocate_lands control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_blocks;
+        protected global::System.Web.UI.WebControls.Button btn_allocate_lands;
         
         /// <summary>
-        /// btn_cancel control.
+        /// btn_soldout_lands control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_cancel;
+        protected global::System.Web.UI.WebControls.Button btn_soldout_lands;
         
         /// <summary>
-        /// btn_finish control.
+        /// btn_search control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_finish;
+        protected global::System.Web.UI.WebControls.Button btn_search;
+        
+        /// <summary>
+        /// btn_goto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_goto;
     }
 }

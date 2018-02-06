@@ -18,9 +18,9 @@
     </div>
     <form id="form1" runat="server">
     <div class="home-leftbar">
-        <button class="home-leftbar-button-active">Create Land</button>
-        <button class="home-leftbar-button">Block Division</button>
-        <button class="home-leftbar-button">Visit Field Officers</button>
+         <asp:Button class="home-leftbar-button-active" ID="btn_create_land" runat="server" Text="Create Land" OnClick="btn_create_land_Click"/>
+        <asp:Button class="home-leftbar-button" ID="btn_block_division" runat="server" Text="Block Division" OnClick="btn_block_division_Click1"/>
+        <asp:Button class="home-leftbar-button" ID="btn_visit_field_officer" runat="server" Text="Visit Field officers" OnClick="btn_visit_field_officer_Click"/>
         <button class="home-leftbar-button">Sales receipt</button>
         <button class="home-leftbar-button">Condition Letters</button>
        <button class="home-leftbar-button">Reports</button>

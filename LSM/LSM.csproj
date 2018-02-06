@@ -171,6 +171,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="create_land.aspx" />
+    <Content Include="field_officers.aspx" />
     <Content Include="home.aspx" />
     <Content Include="homenew.aspx" />
     <Content Include="Images\12.jpg" />
@@ -286,6 +287,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="field_officers.aspx.cs">
+      <DependentUpon>field_officers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="field_officers.aspx.designer.cs">
+      <DependentUpon>field_officers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

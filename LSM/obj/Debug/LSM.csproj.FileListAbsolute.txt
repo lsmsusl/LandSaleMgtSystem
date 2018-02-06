@@ -57,3 +57,4 @@ C:\Users\Kavinda Harshana\Documents\Visual Studio 2013\Projects\LLLLLL\LandSaleM
 C:\Users\Kavinda Harshana\Documents\Visual Studio 2013\Projects\LLLLLL\LandSaleMgtSystem\LSM\bin\System.Net.Http.xml
 C:\Users\Kavinda Harshana\Documents\Visual Studio 2013\Projects\LLLLLL\LandSaleMgtSystem\LSM\obj\Debug\LSM.dll
 C:\Users\Kavinda Harshana\Documents\Visual Studio 2013\Projects\LLLLLL\LandSaleMgtSystem\LSM\obj\Debug\LSM.pdb
+C:\Users\Kavinda Harshana\Documents\Visual Studio 2013\Projects\LLLLLL\LandSaleMgtSystem\LSM\obj\Debug\LSM.csprojResolveAssemblyReference.cache
