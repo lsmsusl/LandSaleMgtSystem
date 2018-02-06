@@ -18,12 +18,14 @@
     </div>
     <form id="form1" runat="server">
     <div class="home-leftbar">
-        <div class="home-leftbar-button"><bButton</div>
-        <div class="home-leftbar-button">Button</div>
-        <div class="home-leftbar-button">Button</div>
-        <div class="home-leftbar-button">Button</div>
-        <div class="home-leftbar-button">Button</div>
-        <div class="home-leftbar-button">Button</div>
+        <button class="home-leftbar-button">Create Land</button>
+        <button class="home-leftbar-button">Block Division</button>
+        <button class="home-leftbar-button">Visit Field Officers</button>
+        <button class="home-leftbar-button">Sales receipt</button>
+        <button class="home-leftbar-button">Condition Letters</button>
+       <button class="home-leftbar-button">Reports</button>
+        <button class="home-leftbar-button">Land Status</button>
+        
     </div>
     <div>
     

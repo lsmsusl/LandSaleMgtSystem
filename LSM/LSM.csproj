@@ -113,6 +113,7 @@
     <Content Include="App_Data\LSM_log.ldf">
       <DependentUpon>LSM.mdf</DependentUpon>
     </Content>
+    <Content Include="block_division.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -169,6 +170,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="create_land.aspx" />
     <Content Include="home.aspx" />
     <Content Include="homenew.aspx" />
     <Content Include="Images\12.jpg" />
@@ -257,12 +259,26 @@
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="block_division.aspx.cs">
+      <DependentUpon>block_division.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="block_division.aspx.designer.cs">
+      <DependentUpon>block_division.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="create_land.aspx.cs">
+      <DependentUpon>create_land.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="create_land.aspx.designer.cs">
+      <DependentUpon>create_land.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
