@@ -10,7 +10,7 @@
 namespace LSM {
     
     
-    public partial class block_division {
+    public partial class field_officers_soldout_lands {
         
         /// <summary>
         /// form1 control.
@@ -58,57 +58,39 @@ namespace LSM {
         protected global::System.Web.UI.WebControls.Button btn_condition_letter;
         
         /// <summary>
-        /// txt_land_no control.
+        /// btn_allocate_lands control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_no;
+        protected global::System.Web.UI.WebControls.Button btn_allocate_lands;
         
         /// <summary>
-        /// txt_land_name control.
+        /// btn_soldout_lands control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_name;
+        protected global::System.Web.UI.WebControls.Button btn_soldout_lands;
         
         /// <summary>
-        /// txt_land_address control.
+        /// btn_search control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_address;
+        protected global::System.Web.UI.WebControls.Button btn_search;
         
         /// <summary>
-        /// txt_blocks control.
+        /// btn_goto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_blocks;
-        
-        /// <summary>
-        /// btn_cancel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_cancel;
-        
-        /// <summary>
-        /// btn_finish control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_finish;
+        protected global::System.Web.UI.WebControls.Button btn_goto;
     }
 }

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="field_officers.aspx.cs" Inherits="LSM.field_officers" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="field_officers_soldout_lands.aspx.cs" Inherits="LSM.field_officers_soldout_lands" %>
 
 <!DOCTYPE html>
 
@@ -22,7 +22,7 @@
         <asp:Button class="home-leftbar-button" ID="btn_block_division" runat="server" Text="Block Division" OnClick="btn_block_division_Click1"/>
        <asp:Button class="home-leftbar-button-active" ID="btn_visit_field_officer" runat="server" Text="Visit Field officers" OnClick="btn_visit_field_officer_Click"/>
         <button class="home-leftbar-button">Sales receipt</button>
-        <asp:Button class="home-leftbar-button" ID="btn_condition_letter" runat="server" Text="Condition Letters" OnClick="btn_condition_letter_Click"/>
+       <asp:Button class="home-leftbar-button" ID="btn_condition_letter" runat="server" Text="Condition Letters" OnClick="btn_condition_letter_Click"/>
        <button class="home-leftbar-button">Reports</button>
         <button class="home-leftbar-button">Land Status</button>
         
@@ -30,17 +30,17 @@
     <div>
     
     </div>
-    <div class="active-title">FIELD OFFICER PAGE</div><br />
+    <div class="active-title">SOLDOUT LANDS</div><br />
         <div class="nav-control">
-            <asp:Button ID="btn_allocate_lands" runat="server" Text="Allocated lands" CssClass="nav-control_Button_active" OnClick="btn_allocate_lands_Click" />
-            <asp:Button ID="btn_soldout_lands" runat="server" Text="Sold out lands" CssClass="nav-control_Button" OnClick="btn_soldout_lands_Click" />
+            <asp:Button ID="btn_allocate_lands" runat="server" Text="Allocated lands" CssClass="nav-control_Button" OnClick="btn_allocate_lands_Click"/>
+            <asp:Button ID="btn_soldout_lands" runat="server" Text="Sold out lands" CssClass="nav-control_Button_active" OnClick="btn_soldout_lands_Click" />
             <asp:Button ID="btn_search" runat="server" Text="Search" CssClass="nav-control_Button" />
         </div>
     <div class="active-body">
       
        <table style="width:100%;height:auto;align-items:center;align-self:center;">
             <tr style="text-align:center;background-color:#ffd800;height:30px;color:#808080"> <th style="width:20%">Registration Number</th>  <th style="width:30%">Address</th>  <th style="width:20%">Purchased Date</th>  <th style="width:20%">Allocated Date</th> <th style="width:10%"></th> </tr>
-            <tr style="text-align:center; height:30px;"> <td style="width:20%">001</td>  <td style="width:20%">500</td>  <td style="width:20%">100000</td>  <td style="width:30%">Other Dets</td><td><asp:Button ID="btn_goto" runat="server" Text="goto" CssClass="btn_goto" OnClick="btn_goto_Click1" /></td></tr>
+            <tr style="text-align:center; height:30px;"> <td style="width:20%">001</td>  <td style="width:20%">500</td>  <td style="width:20%">100000</td>  <td style="width:30%">Other Dets</td><td><asp:Button ID="btn_goto" runat="server" Text="goto" CssClass="btn_goto" OnClick="btn_goto_Click" /></td></tr>
            
             <tr style="text-align:center;"> <td style="width:20%">001</td>  <td style="width:20%">500</td>  <td style="width:20%">100000</td>  <td style="width:30%">Other Detai4s</td> </tr>
         </table>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="homenew.aspx.cs" Inherits="LSM.homenew" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="block_division.aspx.cs" Inherits="LSM.block_division" %>
 
 <!DOCTYPE html>
 
@@ -22,7 +22,7 @@
         <asp:Button class="home-leftbar-button-active" ID="btn_block_division" runat="server" Text="Block Division" OnClick="btn_block_division_Click1" />
         <asp:Button class="home-leftbar-button" ID="btn_visit_field_officer" runat="server" Text="Visit Field officers" OnClick="btn_visit_field_officer_Click"/>
         <button class="home-leftbar-button">Sales receipt</button>
-        <button class="home-leftbar-button">Condition Letters</button>
+        <asp:Button class="home-leftbar-button" ID="btn_condition_letter" runat="server" Text="Condition Letters" OnClick="btn_condition_letter_Click"/>
        <button class="home-leftbar-button">Reports</button>
         <button class="home-leftbar-button">Land Status</button>
         

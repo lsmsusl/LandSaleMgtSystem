@@ -10,7 +10,7 @@
 namespace LSM {
     
     
-    public partial class block_division {
+    public partial class field_officers_allocate_goto {
         
         /// <summary>
         /// form1 control.
@@ -67,31 +67,40 @@ namespace LSM {
         protected global::System.Web.UI.WebControls.TextBox txt_land_no;
         
         /// <summary>
-        /// txt_land_name control.
+        /// txt_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_name;
+        protected global::System.Web.UI.WebControls.TextBox txt_name;
         
         /// <summary>
-        /// txt_land_address control.
+        /// txt_purchased_date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_address;
+        protected global::System.Web.UI.WebControls.TextBox txt_purchased_date;
         
         /// <summary>
-        /// txt_blocks control.
+        /// txt_total_price control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_blocks;
+        protected global::System.Web.UI.WebControls.TextBox txt_total_price;
+        
+        /// <summary>
+        /// txt_no_of_blocks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_no_of_blocks;
         
         /// <summary>
         /// btn_cancel control.
@@ -103,12 +112,12 @@ namespace LSM {
         protected global::System.Web.UI.WebControls.Button btn_cancel;
         
         /// <summary>
-        /// btn_finish control.
+        /// btn_arrow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_finish;
+        protected global::System.Web.UI.WebControls.Button btn_arrow;
     }
 }

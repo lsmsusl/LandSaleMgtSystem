@@ -7,30 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace LSM
 {
-    public partial class homenew : System.Web.UI.Page
+    public partial class condition_letter : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
-       
-
-        
-
-       
-
-     
-
-      
-
-        protected void btn_goto_Click1(object sender, EventArgs e)
-        {
-            Response.Redirect("field_officers_allocate_goto.aspx");
-        }
-
-        
-
         protected void btn_create_land_Click(object sender, EventArgs e)
         {
             Response.Redirect("create_land.aspx");
@@ -49,10 +31,9 @@ namespace LSM
             Response.Redirect("condition_letter.aspx");
         }
 
-       
+        protected void btn_next_Click(object sender, EventArgs e)
+        {
 
-        
-        
-       
+        }
     }
 }

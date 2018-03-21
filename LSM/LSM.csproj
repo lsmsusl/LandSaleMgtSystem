@@ -114,6 +114,7 @@
       <DependentUpon>LSM.mdf</DependentUpon>
     </Content>
     <Content Include="block_division.aspx" />
+    <Content Include="condition_letter.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -171,7 +172,10 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="create_land.aspx" />
+    <Content Include="customer_details.aspx" />
     <Content Include="field_officers.aspx" />
+    <Content Include="field_officers_allocate_goto.aspx" />
+    <Content Include="field_officers_soldout_lands.aspx" />
     <Content Include="home.aspx" />
     <Content Include="homenew.aspx" />
     <Content Include="Images\12.jpg" />
@@ -267,6 +271,13 @@
     <Compile Include="block_division.aspx.designer.cs">
       <DependentUpon>block_division.aspx</DependentUpon>
     </Compile>
+    <Compile Include="condition_letter.aspx.cs">
+      <DependentUpon>condition_letter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="condition_letter.aspx.designer.cs">
+      <DependentUpon>condition_letter.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -281,6 +292,13 @@
     <Compile Include="create_land.aspx.designer.cs">
       <DependentUpon>create_land.aspx</DependentUpon>
     </Compile>
+    <Compile Include="customer_details.aspx.cs">
+      <DependentUpon>customer_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer_details.aspx.designer.cs">
+      <DependentUpon>customer_details.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -294,6 +312,20 @@
     </Compile>
     <Compile Include="field_officers.aspx.designer.cs">
       <DependentUpon>field_officers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="field_officers_allocate_goto.aspx.cs">
+      <DependentUpon>field_officers_allocate_goto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="field_officers_allocate_goto.aspx.designer.cs">
+      <DependentUpon>field_officers_allocate_goto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="field_officers_soldout_lands.aspx.cs">
+      <DependentUpon>field_officers_soldout_lands.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="field_officers_soldout_lands.aspx.designer.cs">
+      <DependentUpon>field_officers_soldout_lands.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

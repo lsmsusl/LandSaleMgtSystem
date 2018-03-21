@@ -10,7 +10,7 @@
 namespace LSM {
     
     
-    public partial class create_land {
+    public partial class condition_letter {
         
         /// <summary>
         /// form1 control.
@@ -58,165 +58,84 @@ namespace LSM {
         protected global::System.Web.UI.WebControls.Button btn_condition_letter;
         
         /// <summary>
-        /// txt_land_reg_no control.
+        /// txt_cus_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_reg_no;
+        protected global::System.Web.UI.WebControls.TextBox txt_cus_name;
         
         /// <summary>
-        /// txt_land_name control.
+        /// txt_landno control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_name;
+        protected global::System.Web.UI.WebControls.TextBox txt_landno;
         
         /// <summary>
-        /// txt_land_doc_no control.
+        /// txt_land_description control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_doc_no;
+        protected global::System.Web.UI.WebControls.TextBox txt_land_description;
         
         /// <summary>
-        /// txt_land_place control.
+        /// txt_no_of_blocks control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_place;
+        protected global::System.Web.UI.WebControls.TextBox txt_no_of_blocks;
         
         /// <summary>
-        /// txt_land_area control.
+        /// txt_unit_price control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_area;
+        protected global::System.Web.UI.WebControls.TextBox txt_unit_price;
         
         /// <summary>
-        /// txt_land_price control.
+        /// txt_total_value control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_price;
+        protected global::System.Web.UI.WebControls.TextBox txt_total_value;
         
         /// <summary>
-        /// txt_land_owner control.
+        /// btn_print control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_owner;
+        protected global::System.Web.UI.WebControls.Button btn_print;
         
         /// <summary>
-        /// txt_land_legal_status control.
+        /// btn_view control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_legal_status;
+        protected global::System.Web.UI.WebControls.Button btn_view;
         
         /// <summary>
-        /// check_road control.
+        /// btn_next control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox check_road;
-        
-        /// <summary>
-        /// txt_road control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_road;
-        
-        /// <summary>
-        /// check_elecriticity control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox check_elecriticity;
-        
-        /// <summary>
-        /// txt_electricity control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_electricity;
-        
-        /// <summary>
-        /// check_water control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox check_water;
-        
-        /// <summary>
-        /// txt_water control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_water;
-        
-        /// <summary>
-        /// txt_other_details control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_other_details;
-        
-        /// <summary>
-        /// btn_cancel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_cancel;
-        
-        /// <summary>
-        /// btn_proceed_to_next control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_proceed_to_next;
-        
-        /// <summary>
-        /// btn_finish control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_finish;
+        protected global::System.Web.UI.WebControls.Button btn_next;
     }
 }

@@ -10,7 +10,7 @@
 namespace LSM {
     
     
-    public partial class block_division {
+    public partial class customer_details {
         
         /// <summary>
         /// form1 control.
@@ -58,40 +58,49 @@ namespace LSM {
         protected global::System.Web.UI.WebControls.Button btn_condition_letter;
         
         /// <summary>
-        /// txt_land_no control.
+        /// txt_cus_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_no;
+        protected global::System.Web.UI.WebControls.TextBox txt_cus_name;
         
         /// <summary>
-        /// txt_land_name control.
+        /// txt_cus_address control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_name;
+        protected global::System.Web.UI.WebControls.TextBox txt_cus_address;
         
         /// <summary>
-        /// txt_land_address control.
+        /// txt_cus_contact control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_land_address;
+        protected global::System.Web.UI.WebControls.TextBox txt_cus_contact;
         
         /// <summary>
-        /// txt_blocks control.
+        /// txt_cus_id_no control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_blocks;
+        protected global::System.Web.UI.WebControls.TextBox txt_cus_id_no;
+        
+        /// <summary>
+        /// txt_no_of_blocks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_no_of_blocks;
         
         /// <summary>
         /// btn_cancel control.
@@ -103,12 +112,12 @@ namespace LSM {
         protected global::System.Web.UI.WebControls.Button btn_cancel;
         
         /// <summary>
-        /// btn_finish control.
+        /// btn_next control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_finish;
+        protected global::System.Web.UI.WebControls.Button btn_next;
     }
 }

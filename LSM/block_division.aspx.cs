@@ -13,5 +13,22 @@ namespace LSM
         {
 
         }
+        protected void btn_create_land_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("create_land.aspx");
+        }
+
+        protected void btn_block_division_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("block_division.aspx");
+        }
+        protected void btn_visit_field_officer_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("field_officers.aspx");
+        }
+        protected void btn_condition_letter_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("condition_letter.aspx");
+        }
     }
 }
