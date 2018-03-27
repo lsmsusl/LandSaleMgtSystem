@@ -50,7 +50,7 @@
             <tr style="height:30px"> <td style="width:30%; text-align:right;vertical-align:top"><div class="table-data">Other details:</div></td> <td style="width:60%"><asp:TextBox ID="txt_other_details" CssClass="table-input" runat="server"></asp:TextBox>  </td> </tr> 
             <tr style="height:30px"><td style="width:30%; text-align:right" colspan="2">
                 <asp:Button ID="btn_cancel" runat="server" Text="Cancel" CssClass="create_land_button" />
-                <asp:Button ID="btn_proceed_to_next" runat="server" Text="Proceed to next" CssClass="create_land_button" />
+                <asp:Button ID="btn_proceed_to_next" runat="server" Text="Proceed to next" CssClass="create_land_button" OnClick="btn_proceed_to_next_Click" />
                 <asp:Button ID="btn_finish" runat="server" Text="Finish" CssClass="create_land_button" OnClick="btn_finish_Click" />
 
             </td></tr>          
